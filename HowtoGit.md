@@ -1,3 +1,7 @@
+## How to ignore files
+
+
+https://www.visualstudio.com/en-us/docs/git/tutorial/ignore-files
 
 
 ## How to Check if pull needed in Git

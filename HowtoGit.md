@@ -4,6 +4,15 @@
 https://www.visualstudio.com/en-us/docs/git/tutorial/ignore-files
 
 
+## How to forcely merge two branches
+
+```
+git push --force origin   dev:master
+```
+
+
+
+
 ## How to Check if pull needed in Git
 
 First use `git remote update`, to bring your remote refs up to date. Then you can do one of several things, such as:

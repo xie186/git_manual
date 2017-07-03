@@ -1,3 +1,23 @@
+# Git mannual
+
+
+## Basic command lines
+
+```
+git branch
+git add ./
+git commit -m "Update README.md"
+
+git push origin dev
+
+git checkout master
+git merge dev
+git push origin master
+
+```
+
+
+
 ## How to ignore files
 
 

@@ -3,6 +3,19 @@
 
 https://www.visualstudio.com/en-us/docs/git/tutorial/ignore-files
 
+```
+## Modify the file: 
+$ more .git/info/exclude
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+#
+*.dir_bash_history_xie186
+
+```
 
 ## How to forcely merge two branches
 

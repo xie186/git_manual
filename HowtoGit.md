@@ -37,6 +37,15 @@ $ more .git/info/exclude
 
 ```
 
+## How to avoid typing user name and password every time when pushing
+
+```
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+```
+
 ## How to forcely merge two branches
 
 ```

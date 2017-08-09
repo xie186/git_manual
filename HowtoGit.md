@@ -35,6 +35,9 @@ $ more .git/info/exclude
 #
 *.dir_bash_history_xie186
 
+## ignore folders
+data/
+
 ```
 
 ## How to avoid typing user name and password every time when pushing

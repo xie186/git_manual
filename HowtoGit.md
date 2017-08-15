@@ -57,6 +57,10 @@ git push --force origin   dev:master
 
 ## How to add submodule 
 
+Reference:
+
+https://stackoverflow.com/questions/7813030/how-can-i-have-linked-dependencies-in-a-git-repo
+
 ```
 git submodule add git@github.com:heike/summerschool-2017.git bigdata/summerschool-2017
 

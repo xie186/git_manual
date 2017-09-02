@@ -107,4 +107,15 @@ You can get the commit id of any ref using git rev-parse <ref>, so you can do th
 git config user.name
 git config user.name "JonSnow"
 ```
+https://help.github.com/articles/setting-your-username-in-git/
+
+
+## 
+
+```
+git remote -v
+```
+
+https://help.github.com/articles/changing-a-remote-s-url/
+
 

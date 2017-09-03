@@ -119,3 +119,7 @@ git remote -v
 https://help.github.com/articles/changing-a-remote-s-url/
 
 
+##
+
+git config  user.email "xieshaojun0621@qq.com"
+

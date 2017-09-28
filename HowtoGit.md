@@ -16,7 +16,17 @@ git push origin master
 
 ```
 
+## How to check the commit histories?
 
+```
+git log
+```
+
+## How to go two a specific commit? 
+
+```
+git checkout <ID> . 
+```
 
 ## How to ignore files
 

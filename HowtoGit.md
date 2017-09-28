@@ -137,5 +137,5 @@ git config  user.email "xieshaojun0621@qq.com"
 
 ```
 git reset --hard HEAD~
-
+git push origin +master  ## "+ means forcely push the changes
 ```

@@ -13,7 +13,6 @@ git push origin dev
 git checkout master
 git merge dev
 git push origin master
-
 ```
 
 ## How to check the commit histories?
@@ -49,6 +48,16 @@ $ more .git/info/exclude
 data/
 
 ```
+
+## what if last commit message was wrong.
+
+```
+git commit --amend -m "New commit message"
+```
+
+## What if you want to rebate a previous commit
+
+https://stackoverflow.com/questions/927358/how-to-undo-the-last-commits-in-git?page=1&tab=votes#tab-top
 
 ## How to avoid typing user name and password every time when pushing
 

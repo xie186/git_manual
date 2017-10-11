@@ -135,7 +135,7 @@ git config user.name "JonSnow"
 https://help.github.com/articles/setting-your-username-in-git/
 
 
-## 
+## How to reset the remote url? 
 
 ```
 git remote -v
@@ -144,13 +144,17 @@ git remote -v
 https://help.github.com/articles/changing-a-remote-s-url/
 
 
-##
+## How to reset the user email? 
 
 git config  user.email "xieshaojun0621@qq.com"
 
-## 
+## How to undo a previous commit? 
 
 ```
 git reset --hard HEAD~
 git push origin +master  ## "+ means forcely push the changes
 ```
+
+Slides: 
+
+https://docs.google.com/presentation/d/1MBOiTckQJ4qVcsJFnwtlt60XmbNY7UbgVRPwLELBBe8/edit?usp=sharing

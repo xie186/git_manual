@@ -4,15 +4,15 @@
 ## Basic command lines
 
 ```
-git branch
+git branch  ## check how many branches you have and which branch you are under.
 git add ./
-git commit -m "Update README.md"
+git commit -m "Update README.md"  
 
-git push origin dev
+git push origin dev ## push to branch dev
 
-git checkout master
-git merge dev
-git push origin master
+git checkout master  ## check out to master branch
+git merge dev        ## merge changes in dev branch
+git push origin master  ## push the changes. 
 ```
 
 ## How to create a new branch

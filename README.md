@@ -69,9 +69,7 @@ data/
 git commit --amend -m "New commit message"
 ```
 
-## What if you want to rebate a previous commit
 
-https://stackoverflow.com/questions/927358/how-to-undo-the-last-commits-in-git?page=1&tab=votes#tab-top
 
 ## How to avoid typing user name and password every time when pushing
 
@@ -157,6 +155,10 @@ https://help.github.com/articles/changing-a-remote-s-url/
 git config  user.email "xieshaojun0621@qq.com"
 
 ## How to undo a previous commit? 
+
+### What if you want to rebate a previous commit
+
+https://stackoverflow.com/questions/927358/how-to-undo-the-last-commits-in-git?page=1&tab=votes#tab-top
 
 ```
 git reset --hard HEAD~

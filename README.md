@@ -1,5 +1,8 @@
 # Git mannual
 
+## Create new repository on using web UI
+
+https://help.github.com/articles/create-a-repo/
 
 ## Basic command lines
 

@@ -15,6 +15,12 @@ git merge dev
 git push origin master
 ```
 
+## How to show the working tree status
+
+```
+git status
+```
+
 ## How to check the commit histories?
 
 ```

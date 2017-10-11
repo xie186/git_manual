@@ -15,6 +15,11 @@ git merge dev
 git push origin master
 ```
 
+## How to create a new branch
+
+```
+git branch <new-branch-name>
+```
 ## How to show the working tree status
 
 ```

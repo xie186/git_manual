@@ -145,6 +145,8 @@ https://help.github.com/articles/setting-your-username-in-git/
 
 ```
 git remote -v
+git remote set-url --add --push [remote] [original repo URL]
+git remote set-url --add --push [remote] [second repo URL]
 ```
 
 https://help.github.com/articles/changing-a-remote-s-url/

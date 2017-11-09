@@ -167,6 +167,20 @@ git reset --hard HEAD~
 git push origin +master  ## "+ means forcely push the changes
 ```
 
+
+## How to tell git to only include certain files instead of ignoring certain files?
+
+The best solution to achieve this
+create .gitignore file in repository root, and if you want to include only .c file then you need to add below lines to .gitignore file
+
+```
+*.*
+!*.c
+```
+
+This will include all .c file from directory and subdirectory recursively.
+
+
 Slides: 
 
 https://docs.google.com/presentation/d/1MBOiTckQJ4qVcsJFnwtlt60XmbNY7UbgVRPwLELBBe8/edit?usp=sharing

@@ -180,6 +180,13 @@ create .gitignore file in repository root, and if you want to include only .c fi
 
 This will include all .c file from directory and subdirectory recursively.
 
+## How to delete a branch
+
+```
+git branch -D gh-pages
+git push origin :gh-pages
+```
+
 
 Slides: 
 

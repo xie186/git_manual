@@ -192,3 +192,10 @@ git push origin :gh-pages
 Slides: 
 
 https://docs.google.com/presentation/d/1MBOiTckQJ4qVcsJFnwtlt60XmbNY7UbgVRPwLELBBe8/edit?usp=sharing
+
+## Remote an old link and add a new one
+
+```
+git remote rm origin
+git remote add 
+```

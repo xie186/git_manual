@@ -16,6 +16,8 @@ git push origin dev ## push to branch dev
 git checkout master  ## check out to master branch
 git merge dev        ## merge changes in dev branch
 git push origin master  ## push the changes. 
+
+git config --list ### List the config information
 ```
 
 ## How to create a new branch

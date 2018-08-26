@@ -81,6 +81,14 @@ $ git push http://example.com/repo.git
 Username: <type your username>
 Password: <type your password>
 ```
+## how to set url
+
+```
+git remote rm origin
+git remote  add origin https://github.com/tabomics/GeCKO_ana.git
+git remote -v
+```
+
 
 ## How to forcely merge two branches
 

@@ -201,3 +201,26 @@ https://docs.google.com/presentation/d/1MBOiTckQJ4qVcsJFnwtlt60XmbNY7UbgVRPwLELB
 git remote rm origin
 git remote add 
 ```
+
+## How to deal with tags
+
+1. Add tag:
+
+```
+git tag -a v0.1 -m 'In this version, the software can do xxx!!! '
+git push origin --tags
+```
+
+2. Delelte tag:
+
+```
+# delete local tag '12345'
+git tag -d 12345
+# delete remote tag '12345' (eg, GitHub version too)
+git push origin :refs/tags/12345
+# alternative approach
+git push --delete origin tagName
+git tag -d tagName
+```
+
+

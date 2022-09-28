@@ -20,11 +20,24 @@ git push origin master  ## push the changes.
 git config --list ### List the config information
 ```
 
-## How to create a new branch
+## Branch
+
+### How to create a new branch
 
 ```
 git branch <new-branch-name>
 ```
+
+### How to delete local and remote branch 
+
+```
+# remove local branches
+git branch -d dev_hotfix
+# list all branches, including remote ones
+git branch -a
+git push origin -d dev_hotfix
+```
+
 ## How to show the working tree status
 
 ```
